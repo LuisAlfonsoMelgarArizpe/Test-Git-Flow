@@ -11,3 +11,8 @@ app.listen(4000, () => {
 app.get('/login',(req,res)=>{
     console.log("login");
 });
+
+
+app.post('/registro',(req,res)=>{
+    console.log("registro");
+});
