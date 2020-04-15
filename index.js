@@ -16,3 +16,5 @@ app.get('/login',(req,res)=>{
 app.post('/registro',(req,res)=>{
     console.log("registro");
 });
+
+app.post('');
